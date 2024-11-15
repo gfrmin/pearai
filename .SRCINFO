@@ -1,4 +1,4 @@
-pkgbase = pearai
+pkgbase = pearai-bin
 	pkgdesc = Open-source AI-powered code editor
 	pkgver = 1.5.0
 	pkgrel = 1
@@ -35,4 +35,4 @@ pkgbase = pearai
 	source = https://pearai-app.nyc3.digitaloceanspaces.com/PearAI-latest/linux/PearAI-avx2.tar.gz
 	sha256sums = b1b256df5f34a9e1f92735a933f856b8ada7faf0301d59df58f82be19a83eddb
 
-pkgname = pearai
+pkgname = pearai-bin
