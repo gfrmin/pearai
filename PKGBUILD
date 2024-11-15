@@ -1,7 +1,6 @@
 
 # Maintainer: gf <guyxfreeman at gmail dot com>
 
-pkgbase=pearai-bin
 pkgname=pearai-bin
 pkgver=1.5.0
 pkgrel=1
@@ -19,7 +18,7 @@ depends=(
 )
 source=("https://pearai-app.nyc3.digitaloceanspaces.com/PearAI-latest/linux/PearAI-avx2.tar.gz")
 sha256sums=('b1b256df5f34a9e1f92735a933f856b8ada7faf0301d59df58f82be19a83eddb')
-install=pearai.install
+install=$pkgname.install
 
 package() {
     install -dm755 "$pkgdir/opt/PearAI"
